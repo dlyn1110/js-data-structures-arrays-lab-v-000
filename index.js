@@ -10,4 +10,4 @@
  }
 
 function destructivelyRemoveLastDriver(name)
-  removeLastDriver = drivers.pop(name)
+  removeLastDriver = drivers.pop(name);
