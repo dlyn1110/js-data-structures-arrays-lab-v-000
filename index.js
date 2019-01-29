@@ -9,6 +9,6 @@
    prependDriver = drivers.unshift(name);
  }
 
-function destructivelyRemoveLastDriver() {
-  removeLastDriver = drivers.pop();
+function destructivelyRemoveLastDriver(name) {
+  removeLastDriver = drivers.pop(name);
 }
