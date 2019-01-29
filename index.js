@@ -21,4 +21,3 @@ function appendDriver(name) {
     const appended_driver = [...drivers, name];
     return appended_driver;
 }
-
